@@ -12,17 +12,31 @@
 -------------------------------------*/
 body{
    color:#383D3B;
+   margin: 0;
+   padding: 0;
 }
 
 img{
    width:300px; 
 }
+
 a{
    color:rgb(243, 213, 92);
 }
+
 a:hover{
    text-decoration: none;
 }
+h2{
+   margin: 0;
+
+}
+.content-wrapper{
+   width: 800px;
+   margin: 0 auto;
+   padding: 60px 0;
+}
+
 /* Profile 
 -------------------------------------*/
 header{
@@ -47,6 +61,7 @@ header{
    text-decoration: none;
    padding: 8px;
    border-radius: 4px;
+   display: inline-block;
 }
 .projects .btn:hover{
    background: rgb(23, 26, 33, 80%);
