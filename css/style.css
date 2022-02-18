@@ -17,6 +17,12 @@ body{
 img{
    width:300px; 
 }
+a{
+   color:rgb(243, 213, 92);
+}
+a:hover{
+   text-decoration: none;
+}
 /* Profile 
 -------------------------------------*/
 header{
@@ -27,9 +33,24 @@ header{
 /* Projects
 -------------------------------------*/
 .projects{
-   background:#eeee9d;
+   background:#649462;
+}
+.projects a{
+   color:darkblue;
+
 }
 
+
+.projects .btn {
+   color:aliceblue;
+   background:rgb(23, 26, 33);
+   text-decoration: none;
+   padding: 8px;
+   border-radius: 4px;
+}
+.projects .btn:hover{
+   background: rgb(23, 26, 33, 80%);
+}
 /* Work Expereince
 -------------------------------------*/
 .work-experience{
