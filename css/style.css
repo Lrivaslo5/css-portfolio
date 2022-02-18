@@ -2,14 +2,16 @@
 --dark-purple: #1e152aff;
 --deep-space-sparkle: #4e6766ff;
 --cadet-blue: #5ab1bbff;
+   -- blue: #5EB1BF;
 --pistachio: #a5c882ff;
 --jasmine: #f7dd72ff;
+#EFEFD0 -- Egg Shell
 */
 
 /* Global Styles
 -------------------------------------*/
 body{
-   color:#1e152aff;
+   color:#383D3B;
 }
 
 img{
@@ -17,15 +19,28 @@ img{
 }
 /* Profile 
 -------------------------------------*/
+header{
+   background:#272727;
+   color:#F4F4ED;
+}
 
 /* Projects
 -------------------------------------*/
+.projects{
+   background:#eeee9d;
+}
 
 /* Work Expereince
 -------------------------------------*/
-
+.work-experience{
+   background:#6ecbdb;
+}
 /* Education
 -------------------------------------*/
 
 /* Contact Info
 -------------------------------------*/
+footer{
+   background:#171A21;
+   color: #F4F4ED;
+}
