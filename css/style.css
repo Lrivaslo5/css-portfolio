@@ -10,6 +10,13 @@
 
 /* Global Styles
 -------------------------------------*/
+/* Box Model Fix - Include as basis */
+html {
+   box-sizing: border-box;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
 body{
    color:#383D3B;
    margin: 0;
@@ -33,17 +40,17 @@ a{
 a:hover{
    text-decoration: none;
 }
-h1, h2{
-   font-family: 'Ubuntu', sans-serif;
-   font-weight: 400;
-   margin: 5px;
-}
 h1{
    font-size: 60px;
    line-height: 1;
 }
 h2{
    font-size: 30px;
+}
+h1, h2{
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 400;
+   margin: 5px;
 }
 .content-wrapper{
    width: 800px;
@@ -67,8 +74,6 @@ header{
    color:darkblue;
 
 }
-
-
 .projects .btn {
    color:aliceblue;
    background:rgb(23, 26, 33);
@@ -79,6 +84,19 @@ header{
 }
 .projects .btn:hover{
    background: rgb(23, 26, 33, 80%);
+}
+.project-item{
+   overflow:hidden;
+   border-bottom: 1px dashed #383D3B;
+   padding: 25px 0;
+}
+/* Here I will be specifying images with a "descendant selector" */
+.project-item img { 
+   float:left;
+   margin-right: 20px;
+}
+.project-item h3 {
+   margin-top: 0;
 }
 /* Work Expereince
 -------------------------------------*/
