@@ -104,6 +104,11 @@ header{
 .work-experience{
    background:#8de8f8;
 }
+.job-item{
+   display:grid;
+   grid-template-columns: 1fr 2fr;
+   grid-column-gap: 10px;
+}
 /* Education
 -------------------------------------*/
 
