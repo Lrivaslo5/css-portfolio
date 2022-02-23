@@ -67,6 +67,14 @@ h3{
 .item-detial h3 ~ p{
    margin: 0;
 }
+.divider > section{
+   overflow:hidden;
+   border-bottom: 1px dashed #383D3B;
+   padding: 25px 0;
+}
+.divider > section:last-of-type{
+   border-bottom: none;
+}
 /* Profile 
 -------------------------------------*/
 header{
@@ -95,11 +103,7 @@ header{
 .projects .btn:hover{
    background: rgb(23, 26, 33, 80%);
 }
-.project-item{
-   overflow:hidden;
-   border-bottom: 1px dashed #383D3B;
-   padding: 25px 0;
-}
+
 /* Here I will be specifying images with a "descendant selector" */
 .project-item img { 
    float:left;
